@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { font-family: sans-serif; padding: 20px; }
+    fieldset { border: 1px solid #767676; margin-bottom: 20px; padding: 15px; }
+    div { margin: 10px 0; display: flex; align-items: center; gap: 10px; }
+    input:not([type="radio"]) { padding: 4px; border: 1px solid #767676; width: 200px; }
+    .inline { display: inline-flex; }
+</style>
+</head>
+<body>
+
+    <h2>My Bio Data</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="inline">FirstName: <input type="text" placeholder="First Name"></div>
+            <br
+            <div class="inline" >LastName: <input type="text" placeholder="Last Name"></div>
+            <br>
+            <div class="inline"> Gender:
+                Male: <input type="radio" name="g"> 
+                Female: <input type="radio" name="g"> 
+                Other: <input type="radio" name="g">
+            </div>
+            <div>Date of Birth: <input type="date"></div>
+            <div>Email: <input type="email" placeholder="Enter Your valid Email"></div>
+            <div>Phone: <input type="tel" value="+91"></div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <div>School Name: <input type="text" placeholder="School Name"></div>
+            <div>Class: <input type="text" placeholder="Enter Class"></div>
+            <div>Stream: <input type="text" placeholder="Science"></div>
+            <div>Marksheet: <input type="file" ></div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

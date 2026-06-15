@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        div { margin: 10px 0; display: flex; align-items: center; gap: 10px; }
+        input:not([type="radio"]) { padding: 4px; border: 1px solid #767676; width: 200px; }
+        .inline { display: inline-flex; }
+    </style>
+    <h1> BIO DATA FORM</h1>
+    <FORM>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div> FIRST NAME:<input type="text" placeholder="First Name"></div> <br>
+        <div>LAST NAME:<input type="text" placeholder="LAST Name"></div> 
+        <div> GENDER:
+            male<input type="radio" name="g">
+            female<input type="radio" name="g">
+            trans<input type="radio" name="g">
+
+        </div> <br>
+        <div>DATE OF BIRTH:<input type="date"></div><br>
+         <div>PHONE:<input type="tel" value="+91"></div><br>
+         <div>ADDRESS:<input type="text" placeholder="Enter Your Address"></div><br>
+        <div>EMAIL:<input type="email" placeholder="Enter Your valid Email"></div>
+    </fieldset>
+      <fieldset>
+        <legend>Aducation info</legend>
+        <div>school name:<input type="text" placeholder="school name"></div> <br>
+        <div>class:<input type="text" placeholder="enter class"></div> 
+        <div>stream:<input type="text" placeholder="enter stream">  </div>
+        <div>marksheet: <input type="document" placeholder="upload marksheet"></div>
+       
+    </fieldset>
+
+    </FORM>
+</body>
+</html>
